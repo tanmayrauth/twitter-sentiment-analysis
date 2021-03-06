@@ -4,10 +4,10 @@ from textblob import TextBlob
 
 
 #consumer key, consumer secret, access token, access secret.
-ckey="B0KuXI3iBjIbZQCMF2sl4Uv1V"
-csecret="brJGYZv1BpxILKvovwdpsejCOOPQXr7Taoh4MgLL1WHRuC2Ges"
-atoken="4037750960-p9ZknKxonsz2PdyoWfnRJCQ4S8Y9e2MCb3HXeyZ"
-asecret="RwWMMoENRaA4aizUrXQljpUVP6wSxsJl2h9JHQ1t9ON0d"
+ckey=""
+csecret=""
+atoken=""
+asecret=""
 
 auth = tweepy.OAuthHandler(ckey, csecret)
 auth.set_access_token(atoken, asecret)
